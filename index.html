@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <script src="assets/js/script.js" defer></script>
+    <title>Canivete Imports</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <navbar>
+        <header>
+            <nav class="nav-bar">
+                <div class="nav-logo">
+                    <img src="assets/img/logo-canivetes-branco.png" id="img-logo-nav">
+                    <h1>Canivete Imports</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#nav-produto" class="nav-link">Produtos</a></li>
+                        <li class="nav-item"><a href="#nav-rifa" class="nav-link">Rifas</a></li>
+                        <li class="nav-item"><a href="#nav-contato" class="nav-link">Contatos</a></li>
+                    </ul>
+                </div>
+                <div class="whats-button">
+                    <a href="#"><i class='bx bxl-whatsapp'  ></i></a>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><i class='bx bx-menu' style='color:#ffffff'  ></i></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#nav-produto" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#nav-rifa" class="nav-link">Rifas</a></li>
+                    <li class="nav-item"><a href="#nav-contato" class="nav-link">Contatos</a></li>
+                </ul>
+                <div class="whats-button">
+                    <a href="#"><i class='bx bxl-whatsapp' style='color:#0b9208'  ></i></a>
+                </div>
+            </div>
+        </header>
+    </navbar>
+    <corpo>
+        <slide id="nav-rifa" class="slider">
+            <div class="container-slide">
+                <button class="slide-button" id="prev-button"><i class='bx bx-chevron-left'></i></i></button>
+                <div class="container-slide-img">
+                    <div class="slide-item slide-item-on"><img src="assets/img/teste-slide1.jpg" alt="" class="slide slide-on"></div>
+                    <div class="slide-item"><img src="assets/img/teste-slide2.jpg" alt="" class="slide "></div>
+                    <div class="slide-item"><img src="assets/img/teste-slide3.jpg" alt="" class="slide "></div>
+                </div>
+                <button  class="slide-button" id="next-button"><i class='bx bx-chevron-right'></i></button>
+        </div>
+        </slide>
+        <lancamentos >
+            <div class="ultimos-produtos">
+                <h3 class="title-produtos">Ultimos Produtos</h3>
+                <div class="subtitle-underline"></div>
+                <div class="lançamentos-cards cards-produtos">
+                    <div class="produto">
+                        <img src="assets/img/1.1.jpeg" >
+                        <p class="produto-name">BÖKER MAGNUM</p>
+                        <p class="description"> Empunhadura em <br>polímero...</p>
+                        <p class="card-price">R$ 500,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/2.jpeg" >
+                        <p class="produto-name">BROWNING</p>
+                        <p class="description">Empunhadura em fibra de carbono...</p>
+                        <p class="card-price">R$ ???,??</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/3.jpeg">
+                        <p class="produto-name">BUCK</p>
+                        <p class="description">lâmina com acabamento stone wash...</p>
+                        <p class="card-price">R$ 350,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                </div>
+            </div>
+        </lancamentos>
+        <produtos id="nav-produto">
+            <div class="produtos">
+                <h3 class="title-produtos">Produtos</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cards-produtos">
+                    <div class="produto">
+                        <img src="assets/img/4.jpeg" >
+                        <p class="produto-name">BÖKER MAGNUM</p>
+                        <p class="description"> Empunhadura em <br>polímero...</p>
+                        <p class="card-price">R$ 500,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/5.jpeg" >
+                        <p class="produto-name">BROWNING</p>
+                        <p class="description">Empunhadura em fibra de carbono...</p>
+                        <p class="card-price">R$ ???,??</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/6.jpeg">
+                        <p class="produto-name">BUCK</p>
+                        <p class="description">lâmina com acabamento stone wash...</p>
+                        <p class="card-price">R$ 350,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/7.jpeg">
+                        <p class="produto-name">BUCK</p>
+                        <p class="description">lâmina com acabamento stone wash...</p>
+                        <p class="card-price">R$ 350,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                    <div class="produto">
+                        <img src="assets/img/8.jpeg">
+                        <p class="produto-name">BUCK</p>
+                        <p class="description">lâmina com acabamento stone wash...</p>
+                        <p class="card-price">R$ 350,00</p>
+                        <button class="see">ver mais</button>
+                    </div>                                    
+                </div>
+            </div>
+        </produtos>
+    </corpo>
+    <footer id="nav-contato">
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <div class="footer-logo">
+                    <img src="assets/img/logo-canivetes-branco.png">
+                    <h1>Canivete <br>Imports</h1>
+                </div>
+                <div class="footer-social-media">
+                    <a href="https://www.instagram.com/canivete_imports/profilecard/?igsh=MTg2YXBpOTdkejhncA==" class="footer-link" id="footer-instagram"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer-link" id="footer-whatsapp"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Localizaçao</h3>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/place/R.+Couto+Magalh%C3%A3es,+1141+-+Nova+R%C3%BAssia,+Ponta+Grossa+-+PR,+84070-080/@-25.0790758,-50.1856957,17z/data=!3m1!4b1!4m5!3m4!1s0x94e819fffbaeac6f:0xe94b43da108fadf1!8m2!3d-25.0790807!4d-50.1831208?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D" class="footer-link">R. Couto Magalhaes - 1141</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Ponta Grossa-PR</a>
+                </li>
+
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#nav-produto" class="footer-link">Canivetes</a>
+                </li>
+            </ul>
+
+            <div class="footer-comprar-whats">
+                <button class="footer-bt-whats"><a href="#">Entrar em contato <i class='bx bxl-whatsapp' ></i></a></button>
+            </div>
+        </div>
+        <div class="footer-copyright">
+           <p><i class='bx bxl-github' style='color:#ffffff'  ></i> gstvcolaco</p>
+           &#169 2024 all rights reserve
+        </div>
+    </footer>
+</body>
+</html>
